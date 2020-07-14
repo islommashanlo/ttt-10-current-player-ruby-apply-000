@@ -11,3 +11,9 @@ end
 #current_player
 def current_player(board)
   turns = turn_count(board)
+  if turns % 1 = 0
+    then return "0"
+  else
+    return "X"
+  end
+end
